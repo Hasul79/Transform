@@ -1,0 +1,64 @@
+.translate{
+    width: 100px;
+    height: 100px;
+    background: #333;
+    margin:20px;
+}
+.translate:hover{
+    transform: translate(50px , 100px);
+}
+
+.rotate{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(red, blue);
+    margin:20px;
+}
+.rotate:hover{
+    transform: rotate(46deg);
+}
+
+.scale{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin:20px;
+}
+.scale:hover{
+    transform: scale(2 , 2);
+    cursor: pointer;
+}
+.skew{
+    width: 100px;
+    height: 100px;
+    background: rgb(226, 53, 177);
+    margin:20px; 
+}
+.skew:hover{
+    transform: skewY(30deg );
+}
+  /* scaleX() , skewY(), skewX(), scaleY, translateX(), translateY() */
+.matrix{
+    width: 100px;
+    height: 100px;
+    background: rgb(68, 209, 47);
+    margin:20px; 
+}
+.matrix:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.rotate2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(red, blue);
+    margin:20px;
+}
+.rotate2:hover{
+    transform: rotateX(46deg);
+    /* transform: rotateY(46deg);
+    transform: rotateZ(46deg); */
+}
+
+
+
